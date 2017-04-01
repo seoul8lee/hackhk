@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    font-family: Bigshot one;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a:visited, a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    color: white;
+    height: 80px;
+    background-color: #6fae68;
+    line-height: 80px;
+}
+
+nav::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.nav-logo{
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.nav-menu{
+    float: right;
+    margin-right: 30px;
+}
+
+.nav-btn{
+   list-style-type: none;
+   margin: 0;
+}
+
+ul.nav-btn > li{
+    float: left;
+    margin-left: 25px;
+}
+
+header{
+    height: 600px;
+    background-color: white;
+    background-image: url("./bg_hd.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+
+.hd-title1{
+    color: #8dc2bc;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 80px;
+}
+
+.hd-title2{
+    color: #8dc2bc;
+    font-size: 100px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+section{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    height: 300px;
+    margin-bottom: 0;
+}
+
+section::after{
+    content:" ";
+    display: block;
+    clear: both;
+    height: 40px;
+}
+
+.atc{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 0;
+}
+
+.atc:last-child{
+    margin-right: 0;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+}
+
+.imgDsc{
+    width: 100%;
+    height: 200px;
+    opacity: 0;
+    color: #8dc2bc;
+    background-color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 0;
+    padding-top: 60px;
+}
+
+.imgDsc:hover{
+    visibility: visible;
+    transition:opacity 0.5s;
+    opacity: 1;
+}
+
+section img{
+    width: 70%;
+    height: auto;
+}
+
+
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color: #6fae68;
+}
+
+.fotx {
+    color: white;
+}
